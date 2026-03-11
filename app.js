@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(express.static("public"));
 
 app.get("/api/home", (req, res) => {
-  res.json({ message: "This is the home page" });
+  res.json({ message: "Kive aa singh" });
 });
 
 app.get("/api/about", (req, res) => {
